@@ -7,6 +7,7 @@ let option = {
         treeBoxHeight: '100%',//设置树显示区域高度如不设置树会自动撑开高度
         data: '',//数据结构
         inputPlaceholder:'点击选择大纲',
+        inputNameAttribute:'syllabusNode',
         showList: true,//设置是否默认展开必须要传
         fuzzSearch: true,//模糊搜索开启
         boxSizing: true,//浮窗固定，横向滚动条取消，根据默认宽度展示所有节点宽度不足时换行
