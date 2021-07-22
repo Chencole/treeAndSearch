@@ -15,7 +15,8 @@ let option = {
         crud: true,//开启增删改
         // checked:true,//复选框开启/关闭
         fixed: true,//树组件固定失去select选择框的特性
-        fooFuzzSearchEventListener(fulfilled) {
+        fooFuzzSearchEventListener(value,fulfilled) {
+            console.log(value)
             fulfilled()
         },
         checkedListener: function (e) {//复选框触发change事件后的回调
