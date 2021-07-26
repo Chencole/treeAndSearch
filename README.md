@@ -15,6 +15,7 @@ let option = {
         drag: true,//允许拖动
         crud: true,//开启增删改
         // checked:true,//复选框开启/关闭
+        defaultChecked:false,
         fixed: true,//树组件固定失去select选择框的特性
         fooFuzzSearchEventListener(value,fulfilled) {
             console.log(value)
