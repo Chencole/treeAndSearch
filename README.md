@@ -14,7 +14,7 @@ let option = {
         boxSizing: true,//浮窗固定，横向滚动条取消，根据默认宽度展示所有节点宽度不足时换行
         drag: true,//允许拖动
         crud: true,//开启增删改
-        // checked:true,//复选框开启/关闭
+        checked:true,//复选框开启/关闭
         defaultChecked:false,
         fixed: true,//树组件固定失去select选择框的特性
         fooFuzzSearchEventListener(value,fulfilled) {
