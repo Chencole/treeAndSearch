@@ -51,4 +51,5 @@ let option = {
         },
     }
     treeAndSearch(option);
+    treeAndSearch.reload(data)
 ```
