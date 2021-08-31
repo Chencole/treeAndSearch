@@ -17,6 +17,9 @@ let option = {
         checked:true,//复选框开启/关闭
         defaultChecked:false,
         fixed: true,//树组件固定失去select选择框的特性
+        closeCallback(){
+            // treeAndSearch.reload()
+        },
         fooFuzzSearchEventListener(value,fulfilled) {
             console.log(value)
             fulfilled()
