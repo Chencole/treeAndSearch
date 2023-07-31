@@ -146,7 +146,7 @@ function treeAndSearch(int){
             e.target.style.overflow='hidden'
             let dragGhostStyle=document.createElement('div')
             let nodeArrow=document.createElement('i')
-            nodeArrow.classList.add('layui-icon')
+            nodeArrow.classList.add('iconfont')
             nodeArrow.innerHTML='&#xe609;'
             nodeArrow.style='padding-right:10px;'
             dragGhostStyle.innerText=e.target.name
@@ -335,21 +335,21 @@ treeAndSearch.reload=function (data){
 function fCrud(node){
     let crudBox=document.createElement('div')
     let add=document.createElement('i')
-    add.classList.add("layui-icon")
+    add.classList.add("iconfont")
     add.classList.add("addIconHover")
-    add.innerHTML='&#xe654;'
+    // add.innerHTML='&#xe654;'
     add.style='pdding-right:10px;'
     add[random+'crudBox']=random+'add'
     let del=document.createElement('i')
-    del.classList.add("layui-icon")
+    del.classList.add("iconfont")
     del.classList.add("delIconHover")
-    del.innerHTML='&#xe640;'
+    // del.innerHTML='&#xe640;'
     del.style='pdding-right:10px;'
     del[random+'crudBox']=random+'del'
     let modify=document.createElement('i')
-    modify.classList.add("layui-icon")
+    modify.classList.add("iconfont")
     modify.classList.add("modifyIconHover")
-    modify.innerHTML='&#xe642;'
+    // modify.innerHTML='&#xe642;'
     modify.style='pdding-right:10px;'
     modify[random+'crudBox']=random+'modify'
     crudBox.appendChild(add)
